@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.bis.mstgo",
+    "sha256_cert_fingerprints":
+    ["0F:1F:B1:D2:29:CD:0D:8E:8E:83:49:06:60:66:FE:FD:DB:A6:DC:B5:7C:AF:75:E5:2B:1A:66:42:67:EE:73:4E"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://mstgosvc.mstrack.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.bis.mstgo",
+    "sha256_cert_fingerprints":
+    ["0F:1F:B1:D2:29:CD:0D:8E:8E:83:49:06:60:66:FE:FD:DB:A6:DC:B5:7C:AF:75:E5:2B:1A:66:42:67:EE:73:4E"]
+  }
+}]
